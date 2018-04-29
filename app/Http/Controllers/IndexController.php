@@ -13,7 +13,7 @@ class IndexController extends Controller
             $height = rand(1, 5);
             array_push($images, 'https://picsum.photos/'.($width*100).'/'.($height*100).'/?random');
         }
-        $view = view('index', compact($images));
+        $view = view('index', compact('images'));
         return $view;
     }
 }
