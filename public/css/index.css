@@ -1,9 +1,9 @@
 /*.grid-item { width: 160px;}*/
 .grid-item-w200 { width: 200px; }
 .grid-item-w400 { width: 400px; }
-.no-margin { margin: 0 !important;}
 .grid:after {
     content: '';
     display: block;
     clear: both;
 }
+
